@@ -49,7 +49,7 @@ while 1:
     electricity=((socH<<8)+socL)*0.003906 #current electric quantity percentage
     
     #print battery percentage
-    print("battery percentage=%.2f"%electricity)
+    #print("battery percentage=%.2f"%electricity)
     
     if electricity<threshold:
         Shutdown()
